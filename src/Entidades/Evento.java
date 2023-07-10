@@ -6,5 +6,7 @@ public class Evento {
 	String nome;
 	String data;
 	String local;
-	List<Selo> selos;
+	Boolean encerrado;
+	Selo selo;
+	List<FeedbackUsuario> feedbacks;
 }
